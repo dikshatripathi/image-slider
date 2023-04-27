@@ -10,7 +10,7 @@ body{
 }
 
 .slide img{
-    height:350px;
+    height:440px;
     width: 100%;
 }
 
@@ -49,4 +49,8 @@ body{
 .slide{
    display: none;
    
+}
+
+.arrow:hover{
+    padding:9px 20px;
 }
