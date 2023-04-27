@@ -1,7 +1,7 @@
 let flag=0;
 showDisplay(flag);
 
-//for alider arrow
+//for slider arrow
 function controller(x){
     flag=flag+1;    
     showDisplay(flag);       //x=1 flag=2 flag=2+1=3     //x=-1 flag=2-1=1
@@ -22,11 +22,11 @@ function showDisplay(num){
      }
 
 
-    //for hiding the present  data
+    //for hiding the other image
     for(let y of slide){
      y.style.display="none";
     }
 
-
+    //display the present number img
     slide[num].style.display="block";
 }
